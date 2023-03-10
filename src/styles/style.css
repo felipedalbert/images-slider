@@ -44,7 +44,8 @@
 }
 
 .info-img{
-    background-color: #ffffff;
+    background-color: rgba(251, 250, 250, 0.518);
+    backdrop-filter: blur(10px);
     width: 620px;
     height: 700px;
     margin-left: 18rem;
@@ -74,7 +75,7 @@
     width: fit-content;
     font-weight: bold;
     transition: ease-in-out .2s;
-    border-bottom: 3px solid #ffffff;
+    border-bottom: 3px solid transparent;
 }
 
 .info-img a:hover{
